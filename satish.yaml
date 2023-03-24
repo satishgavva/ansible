@@ -1,5 +1,5 @@
 ---
-- name: installing java on nodes
+- name: installing java on all nodes
   become: yes
   hosts: all
   tasks:
