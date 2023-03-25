@@ -3,8 +3,8 @@
   become: yes
   hosts: all
   tasks:
-    - name: install java
+    - name: install apche2
       ansible.builtin.apt:
-        name: openjdk-11-jdk
+        name: apache2
         update_cache: yes
         state: present
